@@ -23,7 +23,7 @@ Beta 0.1 · [Italiano](GUIDA.md)
 2. Run `BARMapStudioSetup-…exe`. Windows asks for administrator permission and proposes `C:\Program Files\BARMapStudio`.
 3. Start BAR Map Studio from the Start menu or the desktop shortcut.
 
-The Studio looks for your BAR installation by itself. The round light next to **BAR** at the bottom right is green when it was found. If it is not, press **BAR**, choose **Choose the BAR folder…** and pick the folder where BAR is installed (or its `data` folder). Then close and start the Studio again.
+The Studio looks for your BAR installation by itself. The round light next to **BAR** at the bottom right is green when it was found. If it is not, press **BAR**, choose **Choose the BAR folder…** and pick the folder where BAR is installed (or its `data` folder). Then close and start the Studio again. The same choice, with the folder currently in use, is in the settings menu (the gear button).
 
 The language is chosen from the gear button at the bottom right: English, Italian, French, German. The change applies at the next start.
 

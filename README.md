@@ -30,7 +30,7 @@ Other files, on the **[Releases](https://github.com/Kratoswer-byte/barmapstudio/
 - Windows 10 or 11 (64 bit).
 - Beyond All Reason installed and started at least once, so it has downloaded the game.
 
-BAR Map Studio finds your BAR installation by itself, wherever it is installed. If it does not, press the **BAR** button at the bottom right, choose **Choose the BAR folder…** and pick the folder where BAR is installed.
+BAR Map Studio finds your BAR installation by itself, wherever it is installed. If it does not, press the **BAR** button at the bottom right, choose **Choose the BAR folder…** and pick the folder where BAR is installed. The same setting is in the gear menu.
 
 ## Your first map in five steps
 

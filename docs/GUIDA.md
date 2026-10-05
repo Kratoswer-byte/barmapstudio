@@ -27,7 +27,7 @@ I nomi di pulsanti e schede sono riportati in inglese, la lingua predefinita del
 2. Esegui `BARMapStudioSetup-…exe`. Windows chiede il permesso di amministratore e propone `C:\Program Files\BARMapStudio`.
 3. Avvia BAR Map Studio dal menu Start o dal collegamento sul desktop.
 
-Lo Studio cerca da solo la tua installazione di BAR. La luce accanto a **BAR**, in basso a destra, è verde quando l'ha trovata. Se non lo è, premi **BAR**, scegli **Choose the BAR folder…** e indica la cartella in cui è installato BAR (oppure la sua cartella `data`). Poi chiudi e riavvia lo Studio.
+Lo Studio cerca da solo la tua installazione di BAR. La luce accanto a **BAR**, in basso a destra, è verde quando l'ha trovata. Se non lo è, premi **BAR**, scegli **Choose the BAR folder…** e indica la cartella in cui è installato BAR (oppure la sua cartella `data`). Poi chiudi e riavvia lo Studio. La stessa scelta, con la cartella in uso, si trova anche nel menu delle impostazioni (il pulsante con l'ingranaggio).
 
 ## 2. La tua prima mappa in cinque minuti
 
