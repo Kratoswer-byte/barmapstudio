@@ -37,7 +37,7 @@ Lo Studio cerca da solo la tua installazione di BAR. La luce accanto a **BAR**, 
 
 ## 3. La scheda MAPS
 
-![Editor di mappe](img/maps.png)
+![Editor di mappe](img/map-editor.png)
 
 ### A sinistra: il generatore
 
@@ -84,7 +84,7 @@ I colori che vedi sono gli stessi usati dalla scheda MAPS e dalla mappa esportat
 
 ## 5. La scheda OBJECTS & UNITS
 
-![Oggetti e unità](img/objects.png)
+![Oggetti e unità](img/unit-studio.png)
 
 ### La libreria
 

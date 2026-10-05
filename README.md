@@ -5,7 +5,7 @@ Generate a terrain, paint it, place metal and start points, build custom units, 
 
 > Beta 0.1 — unofficial tool, not affiliated with the Beyond All Reason team.
 
-![Map editor](docs/img/maps.png)
+![Map editor](docs/img/map-editor.png)
 
 ## Download
 
@@ -38,7 +38,7 @@ BAR Map Studio finds your BAR installation by itself. If it does not, press the 
 
 ![Map library](docs/img/library.png)
 
-![Objects and units](docs/img/objects.png)
+![Objects and units](docs/img/unit-studio.png)
 
 ## Coming soon
 

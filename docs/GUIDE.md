@@ -37,7 +37,7 @@ The language is chosen from the gear button at the bottom right: English, Italia
 
 ## 3. The MAPS tab
 
-![Map editor](img/maps.png)
+![Map editor](img/map-editor.png)
 
 ### Left: the generator
 
@@ -84,7 +84,7 @@ The colours you see are the same used by the MAPS tab and by the exported map.
 
 ## 5. The OBJECTS & UNITS tab
 
-![Objects and units](img/objects.png)
+![Objects and units](img/unit-studio.png)
 
 ### The library
 
