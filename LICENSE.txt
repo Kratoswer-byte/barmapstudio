@@ -1,0 +1,64 @@
+BAR MAP STUDIO - LICENCE
+
+Copyright (c) 2026 Kr4Tosw3R. All rights reserved.
+
+BAR Map Studio is an unofficial tool for Beyond All Reason. It is not affiliated with, endorsed by or
+supported by the Beyond All Reason team.
+
+1. You may install and use this beta version free of charge, for personal and non-commercial use, and
+   share the maps and units you create with it.
+2. You may not sell, rent or redistribute the program, modify it, or decompile and reverse engineer it,
+   except where the law expressly allows it or with the written permission of the author.
+3. The parts listed under "Third-party software" below belong to their authors and stay under their own
+   licences. Nothing in this licence limits the rights those licences give you.
+4. THE PROGRAM IS A BETA AND IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. THE
+   AUTHOR IS NOT LIABLE FOR ANY DAMAGE OR LOSS OF DATA ARISING FROM ITS USE.
+
+Bug reports and suggestions: use the FEEDBACK button inside the program.
+
+
+================================================================================
+THIRD-PARTY SOFTWARE
+================================================================================
+
+Neroxis Map Generator
+---------------------
+BAR Map Studio is built on the Neroxis Map Generator, used under the MIT License:
+
+MIT License
+
+Copyright (c) 2020 Peter Ziegler
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Other libraries included in the program
+---------------------------------------
+- FlatLaf (FormDev Software GmbH) - Apache License 2.0
+- Jackson (FasterXML) - Apache License 2.0
+- Apache Commons - Apache License 2.0
+- picocli - Apache License 2.0
+- ANTLR 4, StringTemplate 4 - BSD 3-Clause License
+- abego TreeLayout - BSD 3-Clause License
+- ICU4J (Unicode, Inc.) - Unicode License
+- JSpecify - Apache License 2.0
+- Java runtime (OpenJDK) - GNU General Public License v2 with the Classpath Exception;
+  its licence texts are in the "runtime\legal" folder.
+
+Beyond All Reason and its game content belong to their respective authors. BAR Map Studio reads the game
+files from your own Beyond All Reason installation and does not include them.
