@@ -4,6 +4,8 @@ Beta 0.1 · [English](GUIDE.md)
 
 I nomi di pulsanti e schede sono riportati in inglese, la lingua predefinita del programma. Dal pulsante con l'ingranaggio in basso a destra puoi passare a italiano, francese o tedesco; il cambio vale dal prossimo avvio.
 
+**Scritte troppo piccole?** Su uno schermo 4K, e in generale su Linux, l'interfaccia può risultare piccola. Lo stesso pulsante con l'ingranaggio ha **Interface size** (Grandezza interfaccia): scegli una percentuale (dal 125% al 300% su Windows, 200% o 300% su Linux) e riavvia. Su uno schermo ad altissima risoluzione lo Studio lo propone da solo al primo avvio.
+
 ## Indice
 
 1. [Installazione e primo avvio](#1-installazione-e-primo-avvio)

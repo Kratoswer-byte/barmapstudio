@@ -27,6 +27,8 @@ The Studio looks for your BAR installation by itself. The round light next to **
 
 The language is chosen from the gear button at the bottom right: English, Italian, French, German. The change applies at the next start.
 
+**Text too small?** On a 4K screen, and on Linux in general, the interface may look small. The same gear button has **Interface size**: pick a percentage (125%–300% on Windows, 200% or 300% on Linux) and restart. On a very high resolution screen the Studio offers it by itself at the first start.
+
 ## 2. Your first map in five minutes
 
 1. Open the **MAPS** tab. Size, terrain style, biome and seed are already filled in — style, biome and seed are picked at random at every start.
