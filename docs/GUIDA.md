@@ -67,7 +67,7 @@ Sotto la mappa: **Slope Map [L]** colora il terreno in base alla pendenza (verde
 - **Map options…** — vento, marea, gravità, acqua e lava, raggio dell'estrattore, nebbia di guerra, e come inizia la partita: posizioni **statiche** (ogni squadra esattamente sulla sua base) oppure **zona di partenza** (i giocatori scelgono il punto dentro la zona della loro squadra).
 - **GENERATE FINAL MAP** — scrive la mappa nella cartella mappe di BAR.
 - **GENERATE AND PLAY VS AI** — come sopra, poi avvia una partita.
-- **HOST MATCH WITH FRIENDS** — vedi il [capitolo 7](#7-giocare-con-gli-amici).
+- **HOST MATCH WITH FRIENDS** — in arrivo, vedi il [capitolo 7](#7-giocare-con-gli-amici).
 
 Esportando di nuovo con lo stesso nome, la mappa precedente viene sostituita.
 
@@ -133,34 +133,11 @@ Tutte le mappe installate in BAR. Quelle create con lo Studio hanno l'etichetta 
 
 ## 7. Giocare con gli amici
 
-Ai tuoi amici basta avere Beyond All Reason: non serve lo Studio.
+**In arrivo — non attivo nella beta 0.1.**
 
-### Una volta sola: il tuo spazio cloud
+Potrai ospitare una partita sulla tua mappa con amici che hanno solo Beyond All Reason: la mappa arriva a loro da sola ed entrano con un doppio clic su un piccolo file che lo Studio prepara per ciascuno.
 
-La mappa deve stare in un posto da cui gli amici possano scaricarla. Lo Studio la carica in uno spazio compatibile S3 di tua proprietà (Cloudflare R2, Backblaze B2, Amazon S3).
-
-1. Sul sito del fornitore crea un **bucket** e una **chiave di accesso**, e rendi il bucket leggibile pubblicamente.
-2. Nello Studio: **HOST MATCH WITH FRIENDS → Cloud storage…**, poi inserisci endpoint, bucket, le due chiavi e l'indirizzo pubblico del bucket.
-3. Premi **Test connection**.
-
-Le chiavi restano nelle impostazioni utente del tuo PC. Non vengono mai scritte nelle mappe né nei file che mandi agli amici.
-
-### A ogni partita
-
-1. Apri o genera la mappa e premi **HOST MATCH WITH FRIENDS**.
-2. Scrivi il tuo nome giocatore, i nomi degli amici (uno per riga), una password facoltativa e l'indirizzo a cui si collegano (**Detect** trova il tuo indirizzo pubblico).
-3. Premi **HOST MATCH**. Lo Studio esporta la mappa, la carica, apre una cartella con un `join_NOME.bat` per ogni amico e avvia BAR come host.
-4. Manda a ogni amico il suo file. Con un doppio clic scarica la mappa, la controlla, la installa ed entra nella tua partita.
-
-L'ordine dei nomi decide le squadre: i giocatori vengono distribuiti a turno. I posti liberi li prende l'IA.
-
-### Cosa serve perché funzioni
-
-- Il tuo PC deve essere raggiungibile sulla **porta UDP 8452**: inoltra quella porta sul router, oppure usa una rete privata come Tailscale o ZeroTier e indica l'indirizzo di quella rete.
-- Tutti devono avere la **tua stessa versione di BAR**. Basta aprire BAR una volta per aggiornarlo.
-- Windows avvisa quando si apre un `.bat` scaricato: **Ulteriori informazioni → Esegui comunque**.
-
-Vengono scritti anche i file `.sh` per Linux e macOS, ma non sono stati provati.
+La funzione è in fase di completamento. In questa versione il pulsante **HOST MATCH WITH FRIENDS** compare come *in arrivo*. Nel frattempo puoi giocare le tue mappe contro l'IA, oppure condividere a mano il file della mappa: dopo **GENERATE FINAL MAP** lo trovi nella cartella `maps` di BAR (**MAP LIBRARY → Show in folder**), e all'amico basta copiarlo nella stessa cartella sul suo PC.
 
 ## 8. Aggiornamenti e feedback
 
@@ -174,7 +151,6 @@ Vengono scritti anche i file `.sh` per Linux e macOS, ma non sono stati provati.
 | Il programma | La cartella di installazione, di norma `C:\Program Files\BARMapStudio` |
 | Impostazioni, cache, registri, le tue texture, copie dei feedback | `%APPDATA%\BARMapStudio` (per lo zip portabile, la cartella stessa del programma) |
 | Mappe esportate | La cartella `maps` di BAR |
-| File per gli amici | `matches` dentro la tua cartella dei dati |
 
 La disinstallazione toglie il programma e conserva le tue impostazioni.
 
@@ -187,7 +163,6 @@ La disinstallazione toglie il programma e conserva le tue impostazioni.
 | «Play» non fa nulla | BAR non ha ancora il motore: avvialo una volta e lascia finire l'aggiornamento. |
 | Windows chiede un permesso durante l'export | La cartella mappe di BAR è protetta. Consenti: il permesso serve solo a copiare la mappa. |
 | In partita manca un'unità Legion, Scavengers o Raptors | Quelle unità richiedono la loro opzione di gioco. Lo Studio la attiva nelle partite che avvia. |
-| Un amico non riesce a entrare | Controlla la porta UDP 8452 e che abbiate la stessa versione di BAR. |
 | L'installer dice che non può creare una cartella | Avvialo da una cartella normale, come Download o il Desktop. |
 
 Altro? Premi **FEEDBACK** e descrivi cosa hai fatto, cosa ti aspettavi e cosa è successo.

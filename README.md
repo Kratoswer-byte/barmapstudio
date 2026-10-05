@@ -9,15 +9,17 @@ Generate a terrain, paint it, place metal and start points, build custom units, 
 
 ## Download
 
-Get the latest version from the **[Releases](../../releases/latest)** page.
+[![Download BAR Map Studio for Windows](https://img.shields.io/badge/Download%20for%20Windows-beta%200.1-00c853?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Kratoswer-byte/barmapstudio/releases/latest/download/BARMapStudioSetup-beta-0.1.exe)
+
+Click the button to download the installer, then run it. Windows may warn about an unknown publisher the first time: choose **More info → Run anyway**.
+
+Other files, on the **[Releases](https://github.com/Kratoswer-byte/barmapstudio/releases/latest)** page:
 
 | File | For |
 |---|---|
-| `BARMapStudioSetup-…exe` | Windows installer (recommended) |
+| `BARMapStudioSetup-…exe` | Windows installer (the button above) |
 | `BARMapStudio-…-win.zip` | Windows, no installation: unzip and start `bar-map-launcher.bat` |
 | `BARMapStudio-…-unix.tar.gz` | Linux and macOS — **not tested**, needs Java 25 |
-
-Windows may warn about an unknown publisher the first time: choose **More info → Run anyway**.
 
 ## What you need
 
@@ -32,12 +34,15 @@ BAR Map Studio finds your BAR installation by itself. If it does not, press the 
 - **Textures** — materials for the four terrain zones, automatic rules by height and slope, detail and relief.
 - **Objects & Units** — browse every BAR unit in 3D, duplicate one as your own custom unit, change its name, stats, size, side and colour, and script it in Lua. Import your own `.obj` models.
 - **Map Library** — all the maps installed in BAR with preview, size, heights, wind, tidal, metal and start positions. Open any of them in the editor or play it against the AI.
-- **Play with friends** — your friends only need BAR. The Studio uploads the map to your own cloud storage and writes a small file for each friend: a double click downloads the map and joins your match.
 - English, Italian, French and German.
 
 ![Map library](docs/img/library.png)
 
 ![Objects and units](docs/img/objects.png)
+
+## Coming soon
+
+- **Play with friends** — host a match on your own map with friends who only have BAR: the map reaches them by itself and they join with a double click. The feature is being finished and is not active in beta 0.1.
 
 ## Guide
 

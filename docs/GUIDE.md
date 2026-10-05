@@ -67,7 +67,7 @@ Under the map: **Slope Map [L]** colours the ground by steepness (green: vehicle
 - **Map options…** — wind, tidal strength, gravity, water and lava, extractor radius, fog of war, and how a match starts: **static** positions (each team exactly on its base) or **start zone** (players pick their spot inside the zone of their team).
 - **GENERATE FINAL MAP** — writes the map into the BAR maps folder.
 - **GENERATE AND PLAY VS AI** — the same, then starts a match.
-- **HOST MATCH WITH FRIENDS** — see [chapter 7](#7-playing-with-friends).
+- **HOST MATCH WITH FRIENDS** — coming soon, see [chapter 7](#7-playing-with-friends).
 
 Exporting again with the same name replaces the previous map.
 
@@ -133,34 +133,11 @@ All the maps installed in BAR. The ones made with the Studio carry the green **M
 
 ## 7. Playing with friends
 
-Your friends only need Beyond All Reason: they do not need the Studio.
+**Coming soon — not active in beta 0.1.**
 
-### Once: your cloud storage
+You will be able to host a match on your own map with friends who only have Beyond All Reason: the map reaches them by itself and they join with a double click on a small file the Studio prepares for each of them.
 
-The map has to be somewhere your friends can download it from. The Studio uploads it to an S3-compatible storage of your own (Cloudflare R2, Backblaze B2, Amazon S3).
-
-1. Create a **bucket** and an **access key** on the site of the provider, and make the bucket publicly readable.
-2. In the Studio: **HOST MATCH WITH FRIENDS → Cloud storage…**, fill in endpoint, bucket, the two keys and the public address of the bucket.
-3. Press **Test connection**.
-
-The keys stay in the user settings of your PC. They are never written into the maps or into the files you send to your friends.
-
-### Every match
-
-1. Open or generate the map and press **HOST MATCH WITH FRIENDS**.
-2. Type your player name, your friends' names (one per line), an optional password and the address they connect to (**Detect** finds your public address).
-3. Press **HOST MATCH**. The Studio exports the map, uploads it, opens a folder with one `join_NAME.bat` per friend and starts BAR as host.
-4. Send each friend their file. A double click downloads the map, checks it, installs it and joins your match.
-
-The order of the names decides the teams: players are dealt to the teams in turn. Free places are taken by the AI.
-
-### What must be true
-
-- Your PC must be reachable on **UDP port 8452**: forward that port on your router, or use a private network such as Tailscale or ZeroTier and give the address of that network.
-- Everybody needs the **same BAR version** as you. Opening BAR once updates it.
-- Windows warns when a downloaded `.bat` is opened: **More info → Run anyway**.
-
-The `.sh` files for Linux and macOS are written too, but they have not been tested.
+The feature is being finished. In this version the **HOST MATCH WITH FRIENDS** button is shown as *coming soon*. Until then you can play your maps against the AI, or share the map file by hand: after **GENERATE FINAL MAP** you find it in the `maps` folder of BAR (**MAP LIBRARY → Show in folder**), and a friend only has to copy it into the same folder on their PC.
 
 ## 8. Updates and feedback
 
@@ -174,7 +151,6 @@ The `.sh` files for Linux and macOS are written too, but they have not been test
 | The program | The folder you installed into, by default `C:\Program Files\BARMapStudio` |
 | Settings, cache, logs, your textures, feedback copies | `%APPDATA%\BARMapStudio` (the program folder itself for the portable zip) |
 | Exported maps | The `maps` folder of BAR |
-| Files for your friends | `matches` inside your data folder |
 
 Uninstalling removes the program and keeps your settings.
 
@@ -187,7 +163,6 @@ Uninstalling removes the program and keeps your settings.
 | "Play" does nothing | BAR has no engine yet: start it once and let it finish updating. |
 | Windows asks for permission when exporting | The BAR maps folder is protected. Allow it: only the copy of the map uses that permission. |
 | A unit of Legion, Scavengers or Raptors is missing in game | Those units need their game option. The Studio turns it on in the matches it starts. |
-| A friend cannot join | Check the UDP port 8452 and that you both have the same BAR version. |
 | The installer says it cannot create a folder | Start it from a normal folder such as Downloads or the Desktop. |
 
 Something else? Press **FEEDBACK** and describe what you did, what you expected and what happened.
