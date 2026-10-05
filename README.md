@@ -5,7 +5,7 @@ Generate a terrain, paint it, place metal and start points, build custom units, 
 
 > Beta 0.1 by Kratoswer — unofficial tool, not affiliated with the Beyond All Reason team.
 
-![Map editor](docs/img/map-editor.png)
+![Map editor](docs/img/editor-3d.png)
 
 ## Download
 
@@ -50,9 +50,11 @@ The [user guide](docs/GUIDE.md) covers everything else.
 - **Map Library** — all the maps installed in BAR with preview, size, heights, wind, tidal, metal and start positions. Open any of them in the editor or play it against the AI.
 - English, Italian, French and German.
 
-![Map library](docs/img/library.png)
+![Textures](docs/img/textures.png)
 
-![Objects and units](docs/img/unit-studio.png)
+![Map library](docs/img/map-library.png)
+
+![Objects and units](docs/img/units-commander.png)
 
 ## Coming soon
 

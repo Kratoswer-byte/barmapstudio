@@ -37,7 +37,7 @@ Lo Studio cerca da solo la tua installazione di BAR. La luce accanto a **BAR**, 
 
 ## 3. La scheda MAPS
 
-![Editor di mappe](img/map-editor.png)
+![Editor di mappe](img/editor-3d.png)
 
 ### A sinistra: il generatore
 
@@ -73,6 +73,7 @@ Esportando di nuovo con lo stesso nome, la mappa precedente viene sostituita.
 
 ## 4. La scheda TEXTURES
 
+n![Texture](img/textures.png)
 Il suolo di una mappa di BAR è dipinto con quattro materiali, uno per **zona**. Qui scegli quale materiale va in ogni zona e dove si trova ogni zona.
 
 - **Materiali** — si scelgono tra i biomi di BAR, oppure carichi una tua immagine con **+ File**.
@@ -84,7 +85,7 @@ I colori che vedi sono gli stessi usati dalla scheda MAPS e dalla mappa esportat
 
 ## 5. La scheda OBJECTS & UNITS
 
-![Oggetti e unità](img/unit-studio.png)
+![Oggetti e unità](img/units-commander.png)
 
 ### La libreria
 
@@ -121,7 +122,7 @@ Regola pratica: un numero o un equipaggiamento va in Definition; qualcosa che su
 
 ## 6. La scheda MAP LIBRARY
 
-![Libreria delle mappe](img/library.png)
+![Libreria delle mappe](img/map-library.png)
 
 Tutte le mappe installate in BAR. Quelle create con lo Studio hanno l'etichetta verde **MINE**.
 

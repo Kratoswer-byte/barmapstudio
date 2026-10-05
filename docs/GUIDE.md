@@ -37,7 +37,7 @@ The language is chosen from the gear button at the bottom right: English, Italia
 
 ## 3. The MAPS tab
 
-![Map editor](img/map-editor.png)
+![Map editor](img/editor-3d.png)
 
 ### Left: the generator
 
@@ -73,6 +73,7 @@ Exporting again with the same name replaces the previous map.
 
 ## 4. The TEXTURES tab
 
+n![Textures](img/textures.png)
 The ground of a BAR map is painted with four materials, one per **zone**. Here you choose which material goes in each zone and where each zone lies.
 
 - **Materials** — pick them from the BAR biomes or load your own image with **+ File**.
@@ -84,7 +85,7 @@ The colours you see are the same used by the MAPS tab and by the exported map.
 
 ## 5. The OBJECTS & UNITS tab
 
-![Objects and units](img/unit-studio.png)
+![Objects and units](img/units-commander.png)
 
 ### The library
 
@@ -121,7 +122,7 @@ Rule of thumb: a number or a piece of equipment goes in Definition; something th
 
 ## 6. The MAP LIBRARY tab
 
-![Map library](img/library.png)
+![Map library](img/map-library.png)
 
 All the maps installed in BAR. The ones made with the Studio carry the green **MINE** label.
 
