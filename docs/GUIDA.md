@@ -73,7 +73,8 @@ Esportando di nuovo con lo stesso nome, la mappa precedente viene sostituita.
 
 ## 4. La scheda TEXTURES
 
-n![Texture](img/textures.png)
+![Texture](img/textures.png)
+
 Il suolo di una mappa di BAR è dipinto con quattro materiali, uno per **zona**. Qui scegli quale materiale va in ogni zona e dove si trova ogni zona.
 
 - **Materiali** — si scelgono tra i biomi di BAR, oppure carichi una tua immagine con **+ File**.

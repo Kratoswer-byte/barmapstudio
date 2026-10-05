@@ -73,7 +73,8 @@ Exporting again with the same name replaces the previous map.
 
 ## 4. The TEXTURES tab
 
-n![Textures](img/textures.png)
+![Textures](img/textures.png)
+
 The ground of a BAR map is painted with four materials, one per **zone**. Here you choose which material goes in each zone and where each zone lies.
 
 - **Materials** — pick them from the BAR biomes or load your own image with **+ File**.
