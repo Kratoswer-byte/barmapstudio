@@ -23,7 +23,7 @@ Beta 0.1 · [Italiano](GUIDA.md)
 2. Run `BARMapStudioSetup-…exe`. Windows asks for administrator permission and proposes `C:\Program Files\BARMapStudio`.
 3. Start BAR Map Studio from the Start menu or the desktop shortcut.
 
-The Studio looks for your BAR installation by itself. The round light next to **BAR** at the bottom right is green when it was found. If it is not, press **BAR** and pick the `data` folder of your installation (usually `…\Beyond-All-Reason\data`).
+The Studio looks for your BAR installation by itself. The round light next to **BAR** at the bottom right is green when it was found. If it is not, press **BAR**, choose **Choose the BAR folder…** and pick the folder where BAR is installed (or its `data` folder). Then close and start the Studio again.
 
 The language is chosen from the gear button at the bottom right: English, Italian, French, German. The change applies at the next start.
 
@@ -154,11 +154,13 @@ The feature is being finished. In this version the **HOST MATCH WITH FRIENDS** b
 
 Uninstalling removes the program and keeps your settings.
 
+The program contacts the internet only to ask GitHub whether a newer version exists, and to send your feedback when you press Send.
+
 ## 10. Problems and solutions
 
 | Problem | What to do |
 |---|---|
-| The BAR light is red | Press **BAR** and pick the `data` folder of your installation. Start BAR once if you never did. |
+| The BAR light is red | Press **BAR → Choose the BAR folder…** and pick the folder where BAR is installed. Start BAR once if you never did. |
 | The unit list is empty | BAR has not downloaded the game yet: start it once. |
 | "Play" does nothing | BAR has no engine yet: start it once and let it finish updating. |
 | Windows asks for permission when exporting | The BAR maps folder is protected. Allow it: only the copy of the map uses that permission. |

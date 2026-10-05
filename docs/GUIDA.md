@@ -25,7 +25,7 @@ I nomi di pulsanti e schede sono riportati in inglese, la lingua predefinita del
 2. Esegui `BARMapStudioSetup-…exe`. Windows chiede il permesso di amministratore e propone `C:\Program Files\BARMapStudio`.
 3. Avvia BAR Map Studio dal menu Start o dal collegamento sul desktop.
 
-Lo Studio cerca da solo la tua installazione di BAR. La luce accanto a **BAR**, in basso a destra, è verde quando l'ha trovata. Se non lo è, premi **BAR** e scegli la cartella `data` della tua installazione (di solito `…\Beyond-All-Reason\data`).
+Lo Studio cerca da solo la tua installazione di BAR. La luce accanto a **BAR**, in basso a destra, è verde quando l'ha trovata. Se non lo è, premi **BAR**, scegli **Choose the BAR folder…** e indica la cartella in cui è installato BAR (oppure la sua cartella `data`). Poi chiudi e riavvia lo Studio.
 
 ## 2. La tua prima mappa in cinque minuti
 
@@ -154,11 +154,13 @@ La funzione è in fase di completamento. In questa versione il pulsante **HOST M
 
 La disinstallazione toglie il programma e conserva le tue impostazioni.
 
+Il programma si collega a internet solo per chiedere a GitHub se esiste una versione più recente, e per inviare il tuo feedback quando premi Invia.
+
 ## 10. Problemi e soluzioni
 
 | Problema | Cosa fare |
 |---|---|
-| La luce BAR è rossa | Premi **BAR** e scegli la cartella `data` della tua installazione. Avvia BAR una volta se non l'hai mai fatto. |
+| La luce BAR è rossa | Premi **BAR → Choose the BAR folder…** e indica la cartella in cui è installato BAR. Avvia BAR una volta se non l'hai mai fatto. |
 | L'elenco delle unità è vuoto | BAR non ha ancora scaricato il gioco: avvialo una volta. |
 | «Play» non fa nulla | BAR non ha ancora il motore: avvialo una volta e lascia finire l'aggiornamento. |
 | Windows chiede un permesso durante l'export | La cartella mappe di BAR è protetta. Consenti: il permesso serve solo a copiare la mappa. |
