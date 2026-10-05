@@ -23,7 +23,7 @@ Other files, on the **[Releases](https://github.com/Kratoswer-byte/barmapstudio/
 |---|---|
 | `BARMapStudioSetup-…exe` | Windows installer (the button above) |
 | `BARMapStudio-…-win.zip` | Windows, no installation: unzip and start `bar-map-launcher.bat` |
-| `BARMapStudio-…-unix.tar.gz` | Linux and macOS — **not tested**, needs Java 25. On macOS matches cannot be started from the Studio. |
+| `BARMapStudio-…-unix.tar.gz` | Linux and macOS — **not tested**, needs the full Java 25 (not the "headless" package). On macOS matches cannot be started from the Studio. |
 
 ## What you need
 
