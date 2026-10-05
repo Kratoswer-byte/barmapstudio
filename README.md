@@ -59,6 +59,6 @@ This is a beta: bug reports and ideas are welcome. Use the orange **FEEDBACK** b
 
 ## Licence
 
-BAR Map Studio is © 2026 Kr4Tosw3R, free to use for personal and non-commercial purposes. It is built on the [Neroxis Map Generator](https://github.com/FAForever/Neroxis-Map-Generator) (MIT License, © 2020 Peter Ziegler). The full text and the list of the libraries used are in `LICENSE.txt`, shipped with the program.
+BAR Map Studio is © 2026 Kratoswer, free to use for personal and non-commercial purposes. It is built on the [Neroxis Map Generator](https://github.com/FAForever/Neroxis-Map-Generator) (MIT License, © 2020 Peter Ziegler). The full text and the list of the libraries used are in `LICENSE.txt`, shipped with the program.
 
 Beyond All Reason and its game content belong to their respective authors. BAR Map Studio reads the game files from your own installation and does not include them.
